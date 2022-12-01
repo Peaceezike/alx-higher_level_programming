@@ -1,6 +1,11 @@
-#!/usr/bin/python3
+/usr/bin/python3
+# 0_add.py
+# Brennan D Baraban <375@holbertonschool.com>
+
+"""Print the result of the addition 1 + 2 = 3."""
+
 from add_0 import add
-if _name_ == "_main_":
-    a = 1
-    b = 2
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+
+a = 1
+b = 2
+print("{} + {} = {}".format(a, b, add(a, b)))
