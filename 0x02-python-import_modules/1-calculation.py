@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+# 1-calculation.py
+# Brennan D Baraban <375@holbertonschool.com>
+
 if _name_ == "_main_":
+    """Print the sum, difference, multiple and quotient of 10 and 5."""
     from calculator_1 import add, sub, mul, div
 
     a = 10
